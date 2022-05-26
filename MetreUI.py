@@ -424,7 +424,7 @@ class MainView(ui.View):
         process_done = False
         
         def animate_bar():
-            for i in range(0, 600):
+            for i in range(0, 3000):
                 if process_done:
                     break
                 ui.animate(self.blink, 0.1)
